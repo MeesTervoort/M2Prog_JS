@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+        let MyArr = [2.6, "puppy", 128, "kitty", 789, true, 67]
+        size = MyArr.length;
+        MyArr.length = 6;
+        pop = MyArr.pop();
+        push = MyArr.push(21);
+        MyArr.unshift("linggango");
+        MyArr[5] = "can has cheezburger";
+        MyArr.splice(2, 90, "cheezburger");
+        
+
+        for(let i =0; i< size; i++){
+        console.log(MyArr[i]);}
+        console.log(pop + " is verwijderd");
+        console.log(push + " is toegevoegd");
+</script>
+
+</html>
